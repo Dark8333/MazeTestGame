@@ -328,7 +328,6 @@ public class Enemy : MonoBehaviour
         }
 
         cellTarget.CellCost = counterCost;
-
         return cellTarget;
     }
     #endregion
