@@ -388,6 +388,11 @@ public class LevelGenerator : MonoBehaviour
             gameStarted = true;
         }
     }
+
+    public void CloseGame()
+    {
+        Application.Quit();
+    }
     #endregion
 }
 
